@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <input type="text" name="todo" id="todo" placeholder="Add a task" class="py-2 px-5 m-5 border border-black rounded-lg" >
+    <button id="button" type="button" class="text-white bg-blue-400 py-2 px-3 rounded-lg cursor-pointer">Add</button>
+    <div id="container" class="ml-5 pl-5 border-l-2 md:w-1/2">
+        <ul id="tasks" class="grid grid-cols-2 gap-y-5">
+                <li class="col-start-1 col-end-3">Voici ma toute première tâche de la journée.</li><button type="button" class="text-white bg-red-400 py-2 px-3 rounded-lg cursor-pointer col-start-3 delete">Delete</button>
+                <li class="col-start-1 col-end-3">Voici ma seconde tâche.</li><button type="button" class="text-white bg-red-400 py-2 px-3 rounded-lg cursor-pointer col-start-3 delete">Delete</button>
+        </ul>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
