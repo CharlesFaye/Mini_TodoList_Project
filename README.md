@@ -10,7 +10,7 @@ This is a simple and responsive To-Do List application built with HTML, Tailwind
 
 ## Demo
 
-👉 [Live Demo](https://your-demo-link.com)  
+👉 [Live Demo](https://mini-todo-list-project.vercel.app/)  
 
 
 ## Installation
